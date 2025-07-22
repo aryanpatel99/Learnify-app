@@ -16,7 +16,7 @@ const CourseDetails = () => {
   const [courseData, setCourseData] = useState(null)
   const [openSection, setOpenSection] = useState({}) //for the dropdown 
   const [isAlreadyEnrolled, setIsAlreadyEnrolled] = useState(false)
-  const [isPlayerData, setPlayerData] = useState(null)
+  const [PlayerData, setPlayerData] = useState(null)
 
   const { allCourses, calculateRating, calculateChapterTime, calculateNoOfLectures, calculateCourseDuration, currency } = useContext(AppContext)
 
@@ -66,7 +66,7 @@ const CourseDetails = () => {
 
           <div className='pt-8 text-gray-800'>
             <h2 className='text-xl font-semibold'>Course Structure</h2>
-            
+
             <div className='pt-5'>
               {courseData.courseContent.map((chapter, index) => (
                 <div key={index} className='border border-gray-300 bg-white mb-2 rounded'>
@@ -114,8 +114,8 @@ const CourseDetails = () => {
         {/* right column */}
         <div className='max-w-[424px] z-10 shadow-[0px_4px_15px_2px_rgba(0,0,0,0.1)] rounded-t md:rounded-none overflow-hidden bg-white min-w-[300px] sm:min-w-[420px]'>
 
-        {isPlayerData ? 
-              <YouTube videoId={isPlayerData.videoId} opts={{playerVars:{autoplay:1}}} iframeClassName='w-full aspect-video'/>
+        {PlayerData ? 
+              <YouTube videoId={PlayerData.videoId} opts={{playerVars:{autoplay:1}}} iframeClassName='w-full aspect-video'/>
               :
               <img src={courseData.courseThumbnail} alt="thumbnail" />
               
