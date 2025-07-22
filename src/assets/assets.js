@@ -266,8 +266,8 @@ export const dummyCourses = [
                     {
                         "lectureId": "lecture1",
                         "lectureTitle": "What is JavaScript?",
-                        "lectureDuration": 16,
-                        "lectureUrl": "https://youtu.be/CBWnBi-awSA",
+                        "lectureDuration": 12,
+                        "lectureUrl": "https://youtu.be/lkIFF4maKMU",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -275,7 +275,7 @@ export const dummyCourses = [
                         "lectureId": "lecture2",
                         "lectureTitle": "Setting Up Your Environment",
                         "lectureDuration": 19,
-                        "lectureUrl": "https://youtu.be/4l87c2aeB4I",
+                        "lectureUrl": "https://youtu.be/cvoLc3deAdQ",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
@@ -290,7 +290,7 @@ export const dummyCourses = [
                         "lectureId": "lecture3",
                         "lectureTitle": "Understanding Variables",
                         "lectureDuration": 20,
-                        "lectureUrl": "https://youtu.be/pZQeBJsGoDQ",
+                        "lectureUrl": "https://youtu.be/HGCDMJXS1cc",
                         "isPreviewFree": true,
                         "lectureOrder": 1
                     },
@@ -298,7 +298,7 @@ export const dummyCourses = [
                         "lectureId": "lecture4",
                         "lectureTitle": "Data Types in JavaScript",
                         "lectureDuration": 10,
-                        "lectureUrl": "https://youtu.be/ufHT2WEkkC4",
+                        "lectureUrl": "https://youtu.be/suMvZWjjKbo",
                         "isPreviewFree": false,
                         "lectureOrder": 2
                     }
