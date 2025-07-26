@@ -20,7 +20,7 @@ const Footer = () => {
           <ul className='flex md:flex-col w-full justify-between text-sm text-white/80 md:space-y-2 cursor-pointer'>
             <li><a href={'/'}>Home</a></li>
             <li><a href={'/'}>About Us</a></li>
-            <li><a href={'/'}>Contact Us</a></li>
+            <li><a href={'/contact-us'}>Contact Us</a></li>
             <li><a href={'/'}>Terms</a></li>
             <li><a href={'/'}>Privacy </a></li>
           </ul>

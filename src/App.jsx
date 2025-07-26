@@ -12,6 +12,7 @@ import AddCourse from './pages/educator/AddCourse'
 import MyCourses from './pages/educator/MyCourses'
 import StudentsEnrolled from './pages/educator/StudentsEnrolled'
 import Navbar from "./components/student/Navbar";
+import ContactUs from './pages/student/ContactUs'
 
 const App = () => {
   const isEducatorRoute = useMatch('/educator/*')   //for showing different navbar for educator
@@ -27,6 +28,8 @@ const App = () => {
         <Route path='/my-enrollments' element={<MyEnrollments />} />
         <Route path='/player/:courseId' element={<Player />} />
         <Route path='/loading/:path' element={<Loading />} />
+        <Route path='/contact-us' element={<ContactUs />} />
+        
 
         {/* for educator with nested routes */}
         <Route path='/educator' element={<Educator />}>
