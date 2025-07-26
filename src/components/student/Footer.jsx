@@ -18,11 +18,11 @@ const Footer = () => {
         <div className='flex flex-col md:items-start items-center w-full '>
           <h2 className='font-semibold text-white mb-5'>Company</h2>
           <ul className='flex md:flex-col w-full justify-between text-sm text-white/80 md:space-y-2 cursor-pointer'>
-            <li><a href={'/'}>Home</a></li>
-            <li><a href={'/'}>About Us</a></li>
+            <li><Link to={'/'}>Home</Link></li>
+            <li><Link to={'/'}>About Us</Link></li>
             <li><Link to={'/contact-us'}>Contact Us</Link></li>
-            <li><a href={'/'}>Terms</a></li>
-            <li><a href={'/'}>Privacy </a></li>
+            <li><Link to={'/'}>Terms</Link></li>
+            <li><Link to={'/'}>Privacy </Link></li>
           </ul>
         </div>
         <div className='hidden md:flex flex-col items-start w-full'>

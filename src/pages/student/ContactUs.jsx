@@ -45,6 +45,7 @@ const ContactUs = () => {
     <div className='w-full min-h-screen flex items-center justify-center bg-gradient-to-b from-indigo-300/70 '>
         <form ref={formRef} onSubmit={onSubmit} className='md:w-6xl max-w-xl mb-2 mt-10 flex flex-col gap-5 bg-white p-10 shadow-blue-500 rounded'>
             <input type="hidden" name="access_key" value="0ad423f3-654e-47e5-a4e9-5cd529e6a405" /> 
+            <input type="hidden" name="from_name" value="Learnify.app"></input>
             <h2 className='text-2xl font-semibold text-center'>Contact Us</h2>
             <div className='flex flex-col mt-2'>
                 <label className='text-gray-800 text-lg font-semibold'>Name</label>
