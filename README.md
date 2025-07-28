@@ -1,3 +1,31 @@
+# Learnify.app 📚🚀
+
+**Learnify** is a modern, interactive learning platform built to make education accessible, engaging, and effective for everyone. It supports various learning modules, tracks progress, and provides a smooth UI/UX for students.
+
+🌐 [Live Demo]([https://your-deployed-site-link.com](https://learnify-app-omega.vercel.app/))
+
+---
+
+## 🧠 Features
+
+- 🔍 Search and explore courses easily
+- 🧾 Track learning progress
+- ✨ Clean and responsive UI
+- ⚙️ Built with React, Tailwind CSS, and Clerk
+- 💾 Persistent user data & authentication (if applicable)
+
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Tailwind CSS
+- **Deployment**: Vercel / GitHub Pages
+
+---
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
