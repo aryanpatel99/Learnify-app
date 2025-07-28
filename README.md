@@ -2,8 +2,6 @@
 
 **Learnify** is a modern, interactive learning platform built to make education accessible, engaging, and effective for everyone. It supports various learning modules, tracks progress, and provides a smooth UI/UX for students.
 
-🌐 [Live Demo]([https://your-deployed-site-link.com](https://learnify-app-omega.vercel.app/))
-
 ---
 
 ## 🧠 Features
